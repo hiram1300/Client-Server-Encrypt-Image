@@ -19,8 +19,9 @@ def socket():
  
 def encriptar():
     #Asignamos los valores de la llave
-    
-    key = 27
+    #key = 27
+    #Se genera una llave aleatroia de 3 digitos
+    key = random.randint(100, 999)
     
    
     print('Key:', key)
